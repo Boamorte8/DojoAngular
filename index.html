@@ -10,7 +10,7 @@
 
   <!-- spinnerBankAngularApp es el nombre general del modulo que controla toda la aplicación -->
 
-  <body>
+  <body ng-app="spinnerBankAngularApp">
 
      <div class="header">
       <div class="navbar navbar-default" role="navigation">
@@ -42,7 +42,7 @@
 
 
     <div class="container">
-    <div></div>
+    <div ng-view=""></div>
     </div>
 
 
@@ -50,6 +50,10 @@
     <script src="resources/js/angular/angular.js"></script>
     <script src="resources/js/angular/bootstrap.js"></script>
     <script src="resources/js/angular/angular-route.js"></script>
+
+    <script src="resources/js/app.js"></script>
+    <script src="resources/js/controllers.js"></script>
+    <script src="resources/js/services.js"></script>
 
 </body>
 </html>
