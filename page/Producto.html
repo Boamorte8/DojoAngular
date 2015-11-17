@@ -1,10 +1,10 @@
 <div class="container">
-  <h1 align="center">Listado de productos adquiridos por el cliente.</h1>
+  <h1 align="center" id="tituloProductos">Listado de productos adquiridos por el cliente.</h1>
   </br>
   </p>
 
   <input class="form-control" placeholder="Entre el id de un cliente" data-ng-model="id" 
-  ng-change = 'update()'  /><br>	
+  ng-change = 'update()' id="ingresoId" /><br>	
   
   <!-- 	tabla para mostrar los archivos  -->
   <table class="table" ng-show="productos.length != 0">
